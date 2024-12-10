@@ -7,9 +7,6 @@ const Product = require("./models/product.models")
 app.use(express.json())
 initializeDatabase()
 
-app.get("/", (req, res)=>{
-    res.send("Hello, Welcome back")
-})
 
 
 async function createProduct(newProduct){
