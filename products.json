@@ -1,0 +1,104 @@
+[
+{
+    "title": "Men's Casual Shirt",
+    "description": "Stylish casual shirt for men.",
+    "category": ["Men"],
+    "subCategory": ["Shirts"],
+    "price": 1200,
+    "size": ["M", "L", "XL"],
+    "color": ["Grey"],
+    "quantity": 100,
+    "rating": 4.7,
+    "availability": ["In Stock"],
+    "deliveryTime": ["3-5 business days"],
+    "currency": "Rs.",
+    "tags": ["casual", "formal", "cotton", "men"],
+    "imageUrl": "https://m.media-amazon.com/images/I/519ZIH+CAKL._SY879_.jpg"
+  },
+  {
+    
+    "title": "Solid Classic Fit Shirt",
+    "description": "Stylish casual shirt for men.",
+    "category": ["Men"],
+    "subCategory": ["Shirts"],
+    "price": 1200,
+    "size": ["M", "L", "XL"],
+    "color": ["Blue", "White"],
+    "quantity": 100,
+    "rating": 4.7,
+    "availability": ["In Stock"],
+    "deliveryTime": ["3-5 business days"],
+    "currency": "Rs.",
+    "tags": ["casual", "formal", "cotton", "men"],
+    "imageUrl": "https://m.media-amazon.com/images/I/61TJ8m5EOSL._SY879_.jpg"
+  },
+  {
+    "title": "Girls' Floral Dress",
+    "description": "Stylish floral dress for girls.",
+    "category": ["Kids"],
+    "subCategory": ["Dresses"],
+    "price": 900,
+    "size": ["S", "M", "L"],
+    "color": ["Pink", "Purple"],
+    "quantity": 50,
+    "rating": 4.8,
+    "availability": ["In Stock"],
+    "deliveryTime": ["3-5 business days"],
+    "currency": "Rs.",
+    "tags": ["floral", "girls", "dress", "cotton"],
+    "imageUrl": "https://m.media-amazon.com/images/I/71vnoulph8L._SY879_.jpg"
+  },
+  
+  {
+    "title": "Girls' Casual Knee Length Dress",
+    "description": "Comfortable knee-length dress.",
+    "category": ["Kids"],
+    "subCategory": ["Dresses"],
+    "price": 900,
+    "size": ["S", "M", "L"],
+    "color": ["Red", "Biscuit"],
+    "quantity": 50,
+    "rating": 4.8,
+    "availability": ["In Stock"],
+    "deliveryTime": ["3-5 business days"],
+    "currency": "Rs.",
+    "tags": ["floral", "girls", "dress", "cotton"],
+    "imageUrl": "https://m.media-amazon.com/images/I/81B8CPIdFpL._SY879_.jpg"
+  },
+
+  {
+    "title": "Women's Traditional Kurta",
+    "description": "Elegant and comfortable traditional kurta for women.",
+    "category": ["Women"],
+    "subCategory": ["Dresses"],
+    "price": 1200,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "white"],
+    "quantity": 30,
+    "rating": 4.7,
+    "availability": ["In Stock"],
+    "deliveryTime": ["3-5 business days"],
+    "currency": "Rs.",
+    "tags": ["traditional", "women", "kurta", "cotton"],
+    "imageUrl": "https://m.media-amazon.com/images/I/61nCJ7mqXFL._SX679_.jpg"
+  },
+  {
+    "title": "Women's Cotton Kurta",
+    "description": "Chic and stylish embroidered cotton kurta for women.",
+    "category": ["Women"],
+    "subCategory": ["Dresses"],
+    "price": 1500,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Black", "White", "Pink"],
+    "quantity": 40,
+    "rating": 4.9,
+    "availability": ["In Stock"],
+    "deliveryTime": ["3-5 business days"],
+    "currency": "Rs.",
+    "tags": ["cotton", "kurta", "women"],
+    "imageUrl": "https://m.media-amazon.com/images/I/71sMRMl+e8L._SY879_.jpg"
+  }
+  
+  
+      
+]
