@@ -106,7 +106,7 @@ async function updateProduct(productId, dataToUpdate){
 }
 
 
-app.post("/products/:id", async(req, res)=>{
+app.patch("/products/:id", async(req, res)=>{
     try{
         const updatedProduct = await updateProduct(req.params.id, req.body)
         if(updatedProduct){
@@ -119,6 +119,32 @@ app.post("/products/:id", async(req, res)=>{
         res.status(500).json({error: 'Failed to update product'})
     }
 })
+
+
+async function readProductById(productId) {
+    try {
+        const product = await Product.findById(productId);
+        return product;
+    } catch (error) {
+        throw error;
+    }
+}
+
+
+app.get("/products/:id", async (req, res) => {
+    try {
+        const product = await readProductById(req.params.id);
+        if (product) {
+            res.json(product); // Return the product details
+        } else {
+            res.status(404).json({ error: 'Product Not Found' }); // Return 404 if not found
+        }
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to fetch product' });
+    }
+});
+
+
 
 
 const PORT =3000;
