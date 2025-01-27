@@ -37,7 +37,7 @@ async function readProductByTitle(productTitle){
     } 
 }
 
-app.get("/products/:title", async(req, res)=>{
+app.get("/products/title/:title", async(req, res)=>{
     try{
         const product = await readProductByTitle(req.params.title)
         //console.log(product)
@@ -106,9 +106,9 @@ async function updateProduct(productId, dataToUpdate){
 }
 
 
-app.post("/products/:productId", async(req, res)=>{
+app.post("/products/:id", async(req, res)=>{
     try{
-        const updatedProduct = await updateProduct(req.params.productId, req.body)
+        const updatedProduct = await updateProduct(req.params.id, req.body)
         if(updatedProduct){
             res.status(200).json({message: 'Product updated successfully', updatedProduct: updatedProduct})
         }else{
