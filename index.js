@@ -1,8 +1,16 @@
 const express = require("express")
+const cors = require("cors")
 const app = express()
 
 const {initializeDatabase} = require("./db/db.connect")
 const Product = require("./models/product.models")
+
+// Enable CORS for all routes
+app.use(cors({
+    origin: ['https://ecommerce-app-self-tau.vercel.app', 'http://localhost:3000'],
+    methods: ['GET', 'POST', 'PATCH', 'DELETE'],
+    credentials: true
+}))
 
 app.use(express.json())
 initializeDatabase()

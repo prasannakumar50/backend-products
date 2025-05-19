@@ -13,11 +13,11 @@ const productSchema =  new mongoose.Schema({
     category: [{
         type: String,
         required: true,
-        enum: ['Men', 'Women', 'Kids', 'Others'], 
+        enum: ['Men', 'Women', 'Kids', 'Sneakers', 'Others'], 
       }],
       subCategory: [{
         type: String,
-        enum: ['Shirts', 'T-Shirts', 'Pants', 'Dresses',],
+        enum: ['Shirts', 'T-Shirts', 'Pants', 'Dresses', 'Shoes'],
       }],
       price: {
         type: Number,
